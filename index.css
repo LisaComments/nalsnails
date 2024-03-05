@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900;800;700&family=Josefin+Sans:wght@200;300;400;700&family=Paytone+One&family=Rowdies:wght@700&family=Rubik+Mono+One&family=Secular+One&display=swap');
+html {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Paytone One', sans-serif;
+  font-family: 'Rowdies', sans-serif;
+  font-family: 'Rubik Mono One', monospace;
+  font-family: 'Secular One', sans-serif;
+  overflow: auto;
+
+}
+body {
+  background-color: #FFF2FA !important;
+}
+p {
+  font-family: "Josefin Sans", sans-serif !important;
+  font-size: 11px;
+}
+/*
+.box {
+  border: 1px solid blue;
+}
+.box2 {
+  border: 1px solid green;
+}
+.box3 {
+  border: 1px solid gold;
+}
+.box4 {
+  border: 1px solid red;
+}
+.box5 {
+  border: 1px solid orange;
+}
+*/
+
+.nav-list {
+    list-style-type: none;
+}
+#navbar-menu li a {
+    display: block;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #DC30A0;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.topnav {
+    overflow: hidden;
+    display: flex;
+  }
+
+  .topnav a {
+    color: #000;
+    text-align: center;
+    padding: 14px 16px 0 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+  
+.topnav-right {
+    float: right;
+  }
+ .topnav-right a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 20px 0 20px;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+
+}
+h1 {
+  color: #DC30A0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: bolder;
+  font-family: 'Paytone One', sans-serif;
+}
+h2 {
+  color: #EBC501 !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: 'Paytone One', sans-serif;
+  line-height: 2.5 !important;
+}
+h3 {
+  color: #DC30A0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'Paytone One';
+}
+.head-image {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+.blab1 {
+  text-align: center;
+}
+.bgsection {
+  background-color: #DC30A0;
+}
+.lightpink {
+  background-color: #FFD2F3 !important;
+}
+.pinktxt {
+  color: #FFD2F3;
+}
+.magentatxt {
+  color: #DC30A0;
+}
+.whitetext {
+  color: white;
+}
+.blktxt {
+  color: black !important;
+}
+.mustardtxt {
+  color: #EBC501;
+}
+.pinkh {
+  font-size: 4rem;
+  text-align: center;
+}
+.h3size {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.footercol {
+  background-color: #EBC501;
+}
+
+.jumbotron {
+  background-image: url(PinkDrip2.png);
+  background-position: 0px -200px; /*first value is for x-axis and 2nd value is for y-axis*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  margin-bottom: 3%;
+}
+.jumbodrip {
+  height: 1300px;
+}
+.bookbutton {
+  background-color: white;
+  border: 4px solid black;
+  color: black;
+  padding: 30px 38px 30px 38px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  font-weight: bolder;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#nester {
+  height: 480px;
+}
+.carousel-item {
+  max-height: 200px;
+  max-width: 200px;
+}
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+.carousel-item {
+  .col, .col-sm, .col-md {
+     margin: 8px;
+     height: 300px;
+     background-size: cover;
+     background-position: center center;
+  }
+
+}
+#nailsdye {
+  margin-top: 500px;
+  /*z-index: 1;*/
+}
+#absolutely {
+  width: 81.8%;
+  height: 100%;
+}
+/* CSS Reset | https://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain) */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,menu,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,menu,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* BODY STYLES 
+html, body {
+	background: #12171b url(http://104.131.105.180/storage/app/media/patterns/subtle-carbon.png) repeat center top;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.caption {
+	width: 340px;
+	max-width: 100%;
+	margin: 24px auto 0;
+}
+.caption p {
+	font: 400 9px "Josefin Sans", sans-serif !important;
+	color: #c1c1c1 !important;
+	text-align: left;
+}
+.caption a {
+	text-decoration: underline;
+	color: #fff;
+}
+*/
+/* IMAGE CAROUSEL */
+.carouselCaption {
+    max-width: 80%;
+}
+.carousel {
+	position: relative;
+	width: 100%;
+	height: 380px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	transform: translateZ(0px); /* stops flickering */
+}
+
+.carousel input {
+	display: none !important;
+}
+.carousel input + label {
+	position: absolute;
+	display: block;
+	z-index: 3;
+	top: 210px;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	/* background-color: #191919; */
+	margin-left: -343px; /* -(303+40) */
+}
+.carousel input + label:before {
+	position: absolute;
+	content: "";
+	padding: 20px; /* Arrow size */
+	box-shadow: 1px -1px 0 1px #BCBCBC inset;
+	-webkit-box-shadow: 6px -6px #BCBCBC inset;
+	-moz-box-shadow: 6px -6px #BCBCBC inset;
+	border: solid transparent;
+	border-width: 0 0 2rem 2rem;
+	transform: rotate(45deg);
+	margin: -60px 0 0 -55px;
+}
+.pinkity input + label:before {
+	position: absolute;
+	content: "";
+	padding: 20px; /* Arrow size */
+	box-shadow: 1px -1px 0 1px #DC30A0 inset;
+	-webkit-box-shadow: 6px -6px #DC30A0 inset;
+	-moz-box-shadow: 6px -6px #DC30A0 inset;
+	border: solid transparent;
+	border-width: 0 0 2rem 2rem;
+	transform: rotate(45deg);
+	margin: -60px 0 0 -55px;
+}
+.carousel input:checked + label {
+	display: none;
+}
+.carousel input:checked ~ input + label {
+	margin-left: 303px;
+}
+.carousel input:checked ~ input + label:before { /* Right arrow */
+	transform: rotate(225deg); /* Rotate arrow to the right */
+	margin-left: 15px;
+}
+.carousel input:checked + label + div + input + label {
+	z-index: 4;
+} 
+.carousel input:checked + label + div {
+	z-index: 2;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+	opacity: 1;
+} 
+.slide {
+	position: absolute;
+	z-index: 1;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: no-repeat center top;
+	background-size: cover;
+
+} 
+.slide img {
+	display: block;
+	position: relative;
+	margin: 10px auto 18px;
+	width: 553px;
+	height: 347px;
+
+} 
+#slideBuffer {
+	display: none;
+}
+#getnaild {
+  background-color: #EBC501;
+  box-shadow: 
+        inset 0px 8px 20px -15px #000,
+        inset 0px -8px 20px -15px #000; 
+}
+.thindesc {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  color: #000;
+}
+/*********** QUOTE CAROUSEL ***********/
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+.printbg {
+  background-image: url(flowerpattern.png);
+  background-repeat: repeat;
+  background-size: 9%;
+  background-position: bottom left;
+}
+.darkenfilter {
+  filter: brightness(75%);
+}
+/***** Highlighting Text ******/
+.highlight {
+  display: inline;
+  padding: 0;
+  background: #FFD2F3;
+ /* box-shadow: .5em 0 0 #FFD2F3, -.5em 0 0 #FFD2F3; */
+  border-radius: 20px;
+} 
+/******** QUOTE CAROUSEL *********/
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #fff;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    margin-top: -50px;
+    /*padding: 10px;
+    background: #fff;*/
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #E6E6E6;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #9B9B9B;
+}
+
+/* Add an font style to all testimonials */
+q {
+  font-family: "Josefin sans", sans-serif;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: #000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 5%;
+}
+/********FOOTER STYLES********/
+footer {
+  position: relative;
+  background: #DC30A0;
+  -moz-box-shadow: 0 -5px 6px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 -5px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 -5px 6px rgba(0,0,0,0.2);
+}
+.footernav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 20px 0 20px;
+  font-weight: bolder;
+  font-size: medium;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 2px;
+}
+.weighty {
+  font-weight: 800;
+}
+.footerbtn {
+  border-radius: 0% !important;
+  border: 5px solid !important;
+  font-size: small !important;
+  font-family: "Josefin sans", sans-serif !important;
+  text-decoration: none !important;
+  color: #EBC501 !important;
+}
+
+.footerbtn a {
+  text-decoration: none !important;
+  color: #EBC501 !important;
+}
+/*
+.footerbtn a:hover{
+  color: #FFD2F3 !important;
+}
+*/
+.footerbtn:hover {
+  background-color: #DC30A0 !important;
+  color: #FFD2F3 !important;
+}
+.shadowy {
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+}
+/******form styles******/
+label {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+input, .form-control, .form-select {
+  border: 5px solid #FFD2F3 !important;
+  border-radius: 0% !important;
+  background-color: #DC30A0 !important;
+  color: #FFD2F3 !important;
+}
+input:focus, textarea:focus, select:focus{
+  outline: 5px solid #FFD2F3 !important;
+}
+/******service page******/
+.h1marg {
+  margin-top: -1%;
+}
+.badgey {
+  margin-right: 5%;
+}
+/*******badgey******/
+.badgeyspin {
+
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(-360deg);
+    }
+}
