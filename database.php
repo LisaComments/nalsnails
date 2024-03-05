@@ -14,20 +14,18 @@
 */
 
 //Get Heroku ClearDB connection information
-$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$cleardb_server = $cleardb_url["us-cluster-east-01.k8s.cleardb.net"];
-$cleardb_username = $cleardb_url["b88a2b15bce268"];
-$cleardb_password = $cleardb_url["c7ed68d4"];
-$cleardb_db = substr($cleardb_url["heroku_705236df3394619"],1);
-$active_group = 'default';
-$query_builder = TRUE;
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-// Connect to DB
-$conn = mysqli_connect($cleardb_server, 
-                       $cleardb_username, 
-                       $cleardb_password, 
-                       $cleardb_db);
-?>
+$server = $url["us-cluster-east-01.k8s.cleardb.net"];
+$username = $url["b88a2b15bce268"];
+$password = $url["c7ed68d4"];
+$db = substr($url["heroku_705236df3394619"], 1);
+
+$conn = new mysqli($server, 
+                   $username, 
+                   $password, 
+                   $db);
+
 
     /*
     if($conn){
